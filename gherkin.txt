@@ -1,0 +1,16 @@
+Given a user is on the hom epage
+When the user types in the correct credentials
+Then the acount list is displayed
+
+Given a user is on their account page
+When a user clicks their current account
+Then the account summary is displayed
+
+Given a user is on their account summary page
+When they click on a transaction
+Then the transaction details will be dispalyed
+
+Given a user is on their account swummary page
+When they slick Log Out
+Then the user is logged out
+and screen is displayed
